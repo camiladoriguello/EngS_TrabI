@@ -1,0 +1,155 @@
+{
+  "id": "ca7277fa-b949-46f8-9b17-2c3dede3937c",
+  "version": "2.0",
+  "name": "APAC",
+  "url": "https://camiladoriguello.github.io",
+  "tests": [{
+    "id": "1eda53fd-6b7b-4d60-abf2-00bb3d623840",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7b1b350b-d903-45de-a852-28df3c02868e",
+      "comment": "",
+      "command": "open",
+      "target": "/APAC/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "415dd9d7-63c8-426a-8952-2afcd3907074",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc11f79f-aaca-4c76-8c97-838c71810b8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=INÍCIO",
+      "targets": [
+        ["linkText=INÍCIO", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'INÍCIO')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'INÍCIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d509490e-875d-4f39-888b-9deaca829581",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SOBRE",
+      "targets": [
+        ["linkText=SOBRE", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SOBRE')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#sobre')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SOBRE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11a58af1-6a32-4d1b-8484-5728b2ed4c8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SOBRE",
+      "targets": [
+        ["linkText=SOBRE", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SOBRE')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#sobre')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SOBRE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a6bc58-1db2-40dd-8c84-9ff47aa735f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ATIVIDADES",
+      "targets": [
+        ["linkText=ATIVIDADES", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ATIVIDADES')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#atividades')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ATIVIDADES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd83c4c8-5c12-4b3f-b46f-c119d3327cf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEJA UM DOADOR",
+      "targets": [
+        ["linkText=SEJA UM DOADOR", "linkText"],
+        ["css=li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SEJA UM DOADOR')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#doador')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEJA UM DOADOR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab06865-8edb-4883-97b1-b8103905ffd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ATIVIDADES",
+      "targets": [
+        ["linkText=ATIVIDADES", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ATIVIDADES')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#atividades')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ATIVIDADES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7aa8e914-c0e6-4a9d-95f4-193b9e0ffd07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SOBRE",
+      "targets": [
+        ["linkText=SOBRE", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SOBRE')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#sobre')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SOBRE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0189e4bf-39cf-4116-829e-16bc6b4bd975",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=INÍCIO",
+      "targets": [
+        ["linkText=INÍCIO", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'INÍCIO')]", "xpath:link"],
+        ["xpath=//div[@id='div-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'INÍCIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a4e6dbfb-7c54-430a-8744-e11d992aa7a6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1eda53fd-6b7b-4d60-abf2-00bb3d623840"]
+  }],
+  "urls": ["https://camiladoriguello.github.io/"],
+  "plugins": []
+}
